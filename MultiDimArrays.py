@@ -48,3 +48,12 @@ def mirrow_reflection (matrix) :
 
 matrix = [[1,2,3,4,5,6,7], [2,3,4,5,6,7,8], [3,4,5,6,7,8,9], [4,5,6,7,8,9,10]]
 print_matrix(mirrow_reflection(matrix))
+
+# Метод меняет местами i-й и j-й элементы одномерного массива
+def swap (arr, i, j) : 
+    arr[i], arr[j] = arr[j], arr[i] # <==>
+
+# def swap (arr, i, i) : 
+#     temp = arr[i]
+#     arr[i] = arr[j]
+#     arr[j] = temp
